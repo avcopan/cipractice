@@ -1,0 +1,9 @@
+language: python
+
+os: linux
+
+install:
+    - pip install -e .
+
+script:
+    - pytest
