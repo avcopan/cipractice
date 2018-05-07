@@ -3,7 +3,7 @@ language: python
 os: linux
 
 install:
-    - pip install pytest pytest-cov
+    - pip install codecov pytest pytest-cov
     - pip install -e .
 
 script:
