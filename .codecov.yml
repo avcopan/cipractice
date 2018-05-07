@@ -1,5 +1,0 @@
-codecov:
-    token: 46bf1c37-3d22-44fc-a7d5-337378a412fa
-
-ignore:
-    - "setup.py"
