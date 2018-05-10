@@ -24,11 +24,3 @@ def decode(lst):
     for character, count in lst:
         q += character * count
     return q
-
-
-if __name__ == '__main__':
-    s = 'aabbbbccccccdeee'
-    e = encode(s)
-    d = decode(e)
-    print(e)
-    print(d)
